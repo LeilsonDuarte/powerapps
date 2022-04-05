@@ -6,7 +6,7 @@ TableScreen As screen:
         Fill: =RGBA(0, 0, 0, 0)
         HeadingSize: =21
         Height: =687
-        Items: =SortByColumns(Search([@Tab_Funcionários], TextSearchBox1_1.Text, "Centro_x0020_de_x0020_Custo","Nome","Genero"), "Centro_x0020_de_x0020_Custo", If(SortDescending2, Descending, Ascending))
+        Items: =SortByColumns(Search([@Tab_Funcionários], TextSearchBox1_1.Text, "Nome","Genero"), "Nome", If(SortDescending2, Descending, Ascending))
         Size: =21
         Width: =640
         X: =0
