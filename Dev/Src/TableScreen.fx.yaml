@@ -47,13 +47,14 @@ TableScreen As screen:
         DelayOutput: =true
         Height: =67
         HintText: ="Itens de busca"
+        HoverFill: =RGBA(255, 255, 255, 1)
         PaddingLeft: =70
         RadiusBottomLeft: =0
         RadiusBottomRight: =7
         RadiusTopLeft: =0
         RadiusTopRight: =7
         Size: =21
-        Width: =640
+        Width: =582
         ZIndex: =2
 
     IconSortUpDown1_1 As icon.ArrowsUpDown:
@@ -81,4 +82,11 @@ TableScreen As screen:
         Width: =56
         Y: =11
         ZIndex: =4
+
+    Icon4 As icon.BackArrow:
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(BrowseScreen1)
+        Width: =38
+        X: =582
+        ZIndex: =5
 

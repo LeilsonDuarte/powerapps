@@ -239,7 +239,7 @@
     Icon3 As icon.DetailList:
         Icon: =Icon.DetailList
         OnSelect: =Navigate(TableScreen)
-        X: =292
+        X: =312
         Y: =1024
         ZIndex: =16
 
