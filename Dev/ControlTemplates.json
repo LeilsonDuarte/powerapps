@@ -27,6 +27,20 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
+  "button": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/button",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "button",
+    "OverridableProperties": {},
+    "Version": "2.1.0"
+  },
   "dataTable": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -95,7 +109,7 @@
     "LastModifiedTimestamp": "0",
     "Name": "form",
     "OverridableProperties": {},
-    "Version": "2.1.0"
+    "Version": "2.2.0"
   },
   "formViewer": {
     "CustomGroupControlTemplateName": "",
@@ -109,7 +123,7 @@
     "LastModifiedTimestamp": "0",
     "Name": "formViewer",
     "OverridableProperties": {},
-    "Version": "2.1.0"
+    "Version": "2.2.0"
   },
   "gallery": {
     "CustomGroupControlTemplateName": "",
